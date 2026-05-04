@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Chords</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../Icon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="attribution">Created by Sameek Bhattacharya</div>
+        <h1>Easy Chords</h1>
+        <div id="scale-info" class="scale-info"></div>
+        <div class="scale-controls">
+            <button id="scale-below">Scale Below</button>
+            <button id="set-scale">Set Scale</button>
+            <button id="scale-above">Scale Above</button>
+        </div>
+        <div class="sustain-controls">
+            <button id="sustain-toggle">Sustain: Off</button>
+            <div class="sustain-slider-row">
+                <label for="sustain-slider">Sustain</label>
+                <input id="sustain-slider" type="range" min="0" max="10" value="0">
+                <span id="sustain-value">0</span>
+            </div>
+        </div>
+        <div id="chord-buttons" class="chord-buttons"></div>
+        <div id="status" class="status">Choose a scale and press any chord.</div>
+    </div>
+
+    <!-- Modal for setting scale -->
+    <div id="scale-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Set Scale</h2>
+            <label for="root-select">Root note:</label>
+            <select id="root-select"></select>
+            <label for="type-select">Scale type:</label>
+            <select id="type-select">
+                <option value="Major">Major</option>
+                <option value="Minor">Minor</option>
+            </select>
+            <button id="confirm-scale">Set</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/eel.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
