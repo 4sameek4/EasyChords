@@ -1,0 +1,16 @@
+# Mark generated and vendor files to exclude from language statistics
+dist/** linguist-vendored
+build/** linguist-vendored
+__pycache__/** linguist-vendored
+package_info.txt linguist-generated=true
+Icon.jpg linguist-vendored
+Icon.png linguist-vendored
+Icon.ico linguist-vendored
+
+# Force source language detection for the app files
+*.py linguist-language=Python
+offline_chords.spec linguist-language=Python
+web/*.js linguist-language=JavaScript
+web/*.html linguist-language=HTML
+web/*.css linguist-language=CSS
+README.md linguist-documentation

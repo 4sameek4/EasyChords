@@ -1,0 +1,22 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.env
+
+# PyInstaller artifacts
+build/
+dist/
+
+# IDE / editor files
+.vscode/
+*.swp
+*.swo
+
+# Generated icons and images
+Icon.png
