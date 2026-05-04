@@ -1,4 +1,4 @@
-# EasyChords : ## Play Piano Chords from Any Scale at the Press of a Button
+# EasyChords : Play Piano Chords from Any Scale at the Press of a Button
 A standalone, offline Windows desktop application that allows users to explore musical scales and play piano chords interactively. Built with a Python backend and a responsive web-based frontend, the application generates real-time audio and is packaged as a zero-dependency executable.
 
 ## ✨ Features
