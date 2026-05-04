@@ -21,13 +21,13 @@ A standalone, offline Windows desktop application that allows users to explore m
 
 **Core Libraries**:
 
-  **Eel (v0.18.2)**: Facilitates the communication between the Python backend and the JavaScript frontend.  
+  *Eel (v0.18.2)*: Facilitates the communication between the Python backend and the JavaScript frontend.  
 
-  **Pygame (v2.6.1)**: Handles the initialization of the audio mixer and the low-latency playback of the audio arrays.  
+  *Pygame (v2.6.1)*: Handles the initialization of the audio mixer and the low-latency playback of the audio arrays.  
 
-  **NumPy (v2.2.4)**: Drives the heavy lifting of calculating frequencies and generating the multi-harmonic sine waves for the audio chords.  
+  *NumPy (v2.2.4)*: Drives the heavy lifting of calculating frequencies and generating the multi-harmonic sine waves for the audio chords.  
 
-  **Pillow (PIL)**: Used in the build pipeline to generate high-quality, transparent circular .ico and .png assets from source images.
+  *Pillow (PIL)*: Used in the build pipeline to generate high-quality, transparent circular .ico and .png assets from source images.
 
 ## 🗂️ Project Structure
 **offline_chords.py**: The main entry point. It contains the core mathematical logic for MIDI-to-frequency conversion, scale building, and the generate_waveform function that builds the audio using NumPy.
