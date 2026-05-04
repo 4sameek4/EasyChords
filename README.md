@@ -61,6 +61,7 @@ Clone the repository:
 **Bash**
 
 clone https://github.com/4sameek4/EasyChords.git
+
 cd piano-chord-generator
 
 ## Install the required dependencies:
