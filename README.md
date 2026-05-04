@@ -68,6 +68,10 @@ cd piano-chord-generator
 
 pip install -r requirements.txt
 
+## Build the executable:
+**Bash**
+
+pyinstaller --clean offline_chords.spec
 
 ## Run the main application:
 **Bash**
