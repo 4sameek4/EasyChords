@@ -40,6 +40,7 @@ A standalone, offline Windows desktop application that allows users to explore m
 
 ## 🚀 Getting Started (For Users)
 **Installation**
+
 Navigate to the Releases tab of this repository.
 
 Download the latest .exe file.
@@ -50,24 +51,31 @@ Double-click the downloaded executable to launch the application. No installatio
 If you wish to clone this repository and run or build the application from the source code, follow these steps:
 
 **Prerequisites**
+
 Python 3.11+ installed on your machine.
 
 **Running Locally**
+
 Clone the repository:
 
 **Bash**
-git clone https://github.com/yourusername/piano-chord-generator.git
+
+
 cd piano-chord-generator
 
 ## Install the required dependencies:
 **Bash**
+
 pip install -r requirements.txt
 
 
 ## Run the main application:
 **Bash**
+
 python offline_chords.py
+
 **Windows**
+
 Run EasyChords.exe
 
 ## 🤝 Contributing
